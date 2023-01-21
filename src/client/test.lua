@@ -1,0 +1,1 @@
+print("Thu nghiem")
