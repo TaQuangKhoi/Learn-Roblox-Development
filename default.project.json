@@ -3,6 +3,13 @@
   "tree": {
     "$className": "DataModel",
 
+    "Players":{
+      "$className": "Players",
+      "$properties": {
+        "RespawnTime": 2
+      }
+    },
+
     "ReplicatedStorage": {
       "Common": {
         "$path": "src/shared"
@@ -68,5 +75,6 @@
         "RespectFilteringEnabled": true
       }
     }
-  }
+  },
+  "servePlaceIds": []
 }
